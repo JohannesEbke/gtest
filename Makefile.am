@@ -5,6 +5,7 @@ ACLOCAL_AMFLAGS = -I m4
 # Nonstandard package files for distribution
 EXTRA_DIST = \
   CHANGES \
+  LICENSE \
   CONTRIBUTORS \
   include/gtest/gtest-param-test.h.pump \
   include/gtest/internal/gtest-param-util-generated.h.pump \
