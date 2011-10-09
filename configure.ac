@@ -22,6 +22,7 @@ AC_CONFIG_FILES([scripts/gtest-config], [chmod +x scripts/gtest-config])
 # pedantic complaints about package files, and enable various distribution
 # targets.
 AM_INIT_AUTOMAKE([1.9 dist-bzip2 dist-zip foreign subdir-objects])
+m4_ifdef([AM_SILENT_RULES],[AM_SILENT_RULES([yes])],[])
 
 # Check for programs used in building Google Test.
 AC_PROG_CC
